@@ -246,6 +246,24 @@ h7
 	background: #D0CFFF;
 }
 
+.risultato
+{
+	position: absolute;
+	width: 364px;
+	height: 43px;
+	left: 538px;
+	top: 667px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+
+}
+
 
 
 
