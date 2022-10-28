@@ -9,6 +9,8 @@ stima dei tempi per il backend : 4 ore (Armenise Gabriele)
 </head>
 <body>
 
+	<form action='<?php echo $_SERVER ["PHP_SELF"]; ?>' method="post">
+
 	<h1>Quanto sarai povero?</h1>
 	<h2>Giorni</h2>
 	<input type="number" class="t1" name="giorni" placeholder="Quanti giorni durera' il lavoro?">
@@ -34,19 +36,43 @@ stima dei tempi per il backend : 4 ore (Armenise Gabriele)
 	<h7>Campo obbligatorio</h7>
 
 	<input type="submit" class="bottone" name="bottone" value="CALCOLA">
+</form>
 </body>
-</body>
+</html>
+
+
+<?php 
+
+if (isset($_POST("submit")))
+{
+	$Giorni = $_POST["giorni"];
+	$Ore = $_POST["ore"];
+	$Pagamento = $_POST["pagamentoh"];
 
 
 
+	if ($Giorni != null && $Ore != null && $Pagamento != null)
+	{
+		if ($Giorni >= 0 && $Ore >= 0 && $Pagamento >= 0)
+		{
+			$PagamentoLavoro = ($Ore * $Pagamento) * $Giorni;
 
+			echo "$Ore, $Giorni, $Pagamento, $PagamentoLavoro"; 
+		}
 
+		else
+		{
+			echo "Inserire un numero maggiore di 0";
+		}
+	}
 
+	else 
+	{
+		echo "Inserire un numero";
+	}
 
+}
 
-
-
-
-
+?>
 
 
