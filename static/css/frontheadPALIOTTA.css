@@ -1,0 +1,247 @@
+stima dei tempi Paliotta: 6 ore
+
+
+body
+{
+    background: linear-gradient(180deg, #D0CFFF 0%, #9ECAF3 100%);
+    mix-blend-mode: normal;
+}
+
+h1
+{
+    position: absolute;
+    width: 355px;
+    height: 49px;
+    left: 543px;
+    top: 104px;
+    
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+rect
+{
+
+    position: absolute;
+    width: 558px;
+    height: 580px;
+    left: 441px;
+    top: 100px;
+    background: #FFFFFF;
+}
+
+.t1 
+{
+    position: absolute;
+    width: 256.3px;
+    height: 16px;
+    left: 547.54px;
+    top: 245px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    border: #FFFFFF;
+    color: #A4A4A4;
+
+}
+
+.linea1
+{
+    position: absolute;
+    width: 364px;
+    height: 0px;
+    left: 538px;
+    top: 255px;
+    border: 1px solid #535353;
+}
+
+h2
+{
+    position: absolute;
+    width: 51.81px;
+    height: 16px;
+    left: 538px;
+    top: 200px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+
+}
+
+h3
+{
+    position: absolute;
+    width: 137.69px;
+    height: 13px;
+    left: 538px;
+    top: 260px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    color: #FF0000;
+
+}
+
+h4
+{
+	position: absolute;
+	width: 211.31px;
+	height: 16px;
+	left: 538px;
+	top: 275px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+
+}
+
+.t2 
+{
+	position: absolute;
+	width: 207.22px;
+	height: 16px;
+	left: 547.54px;
+	top: 335px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	border: #FFFFFF;
+	color: #A4A4A4;
+
+}
+
+h5
+{
+	position: absolute;
+	width: 137.69px;
+	height: 13px;
+	left: 538px;
+	top: 345px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	display: flex;
+	align-items: center;
+	color: #FF0000;
+
+}
+
+.linea2 
+{
+	position: absolute;
+	width: 364px;
+	height: 0px;
+	left: 538px;
+	top: 347px;
+	border: 1px solid #535353;
+
+}
+
+h6
+{
+	position: absolute;
+	width: 152.69px;
+	height: 16px;
+	left: 538px;
+	top: 360px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	color: #000000;
+
+}
+
+.t3 
+{
+	position: absolute;
+	width: 249.48px;
+	height: 16px;
+	left: 547.54px;
+	top: 425px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	border: #FFFFFF;
+	color: #A4A4A4;
+
+}
+
+.linea3
+{
+	position: absolute;
+	width: 364px;
+	height: 0px;
+	left: 538px;
+	top: 435px;	
+	border: 1px solid #535353;   
+}
+
+h7
+{
+	position: absolute;
+	width: 137.69px;
+	height: 13px;
+	left: 538px;
+	top: 450px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	display: flex;
+	align-items: center;
+	color: #FF0000;
+}
+
+.bottone
+{
+	position: absolute;
+	width: 364px;
+	height: 35px;
+	left: 538px;
+	top: 510px;
+	background: #D0CFFF;
+}
